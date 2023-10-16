@@ -543,10 +543,18 @@ debugFolder.add(debugSettings, "showNormals").name("Show Normals").onChange(() =
 	resetAccumulation = true;
 });
 
+const githubController = gui.add({ func: () => {
+	window.open("https://github.com/GelamiSalami/Quadtree-Displacement-Mapping");
+} }, "func").name("Github");
+
+const githubSvg = document.createElement("span");
+githubSvg.classList.add("github-icon");
+githubController.domElement.parentElement.appendChild(githubSvg)
+
 // cameraFolder.open();
 renderFolder.open();
 // worldFolder.open();
-textureFolder.open();
+// textureFolder.open();
 // debugFolder.open();
 
 // 

@@ -47,3 +47,14 @@ body {
 	opacity: 0.5;
 	pointer-events: none;
 }
+
+.github-icon {
+	position: sticky;
+	bottom: 27px;
+	width: 21px;
+	height: 21px;
+	margin: 3px;
+	float: right;
+	background-image: url(../images/github-mark-white.svg);
+	background-size: cover;
+}
