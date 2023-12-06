@@ -4,7 +4,7 @@ https://gelamisalami.github.io/Quadtree-Displacement-Mapping/
 
 <img src="screenshot-image.png">
 
-
+Rendering heightmaps with path tracing on a subdivided plane using quadtree displacement mapping. The heightmap is stored as a min-max mipmap hierarchy which is used to traverse the heightmap as an implicit quadtree acceleration structure.
 
 ## Resources
 
